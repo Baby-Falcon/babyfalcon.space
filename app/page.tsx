@@ -28,7 +28,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center">
             <Link href="https://x.com/adityasaravana" className="group">
               <Image
-                src="/images/aditya.png"
+                src="/images/aditya.jpeg"
                 alt="Photo of Aditya"
                 width={128}
                 height={128}
