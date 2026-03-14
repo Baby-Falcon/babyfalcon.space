@@ -13,6 +13,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@vercel/analytics": "^2.0.1",
     "geist": "^1.7.0",
     "next": "15.4.10",
     "posthog-js": "^1.257.0",
