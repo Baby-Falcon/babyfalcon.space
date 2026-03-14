@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faXTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Link from "next/link";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
         <Image
           className="rounded-md"
           src="/images/logo.png"
-          alt="Bowtie Aerospace logo"
+          alt="Baby Falcon logo"
           width={100}
           height={100}
           priority
@@ -21,7 +21,7 @@ export default function Home() {
         </h1>
 
         <p className="text-sm font-mono">
-          We&apos;re two high schoolers trying to vibe-clone SpaceX.
+          We&apos;re two high school sophomores building a model rocket that lands like SpaceX's Falcon 9.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-12 justify-center sm:justify-start max-w-md mx-auto sm:mx-0">
@@ -42,7 +42,7 @@ export default function Home() {
               </Link>
               <div className="flex gap-1">
                 <a href="https://x.com/adityasaravana" className="p-1 transition-colors hover:scale-125 transition-transform">
-                  <FontAwesomeIcon icon={faTwitter} size="sm" className="text-gray-700" />
+                  <FontAwesomeIcon icon={faXTwitter} size="sm" className="text-gray-700" />
                 </a>
                 <a href="https://www.linkedin.com/in/adityasaravana/" className="p-1 transition-colors hover:scale-125 transition-transform">
                   <FontAwesomeIcon icon={faLinkedin} size="sm" className="text-gray-700" />
@@ -68,7 +68,7 @@ export default function Home() {
               </Link>
               <div className="flex gap-1">
                 <Link href="https://x.com/andmath173842" className="p-1 transition-colors hover:scale-125 transition-transform">
-                  <FontAwesomeIcon icon={faTwitter} size="sm" className="text-gray-700" />
+                  <FontAwesomeIcon icon={faXTwitter} size="sm" className="text-gray-700" />
                 </Link>
                 <Link href="https://www.linkedin.com/in/andr%C3%A9s-mathias-427469340/" className="p-1 transition-colors hover:scale-125 transition-transform">
                   <FontAwesomeIcon icon={faLinkedin} size="sm" className="text-gray-700" />
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
         <br></br>
         <p className="text-sm font-mono">
-          Wanna talk? <Link href="mailto:hi@bowtieaero.space" className="text-blue-500 hover:underline">Say hi.</Link>
+          Wanna talk? <Link href="mailto:hi@babyfalcon.space" className="text-blue-500 hover:underline">Say hi!</Link>
         </p>
 
         <p className="text-sm font-mono">

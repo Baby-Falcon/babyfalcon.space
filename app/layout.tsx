@@ -23,7 +23,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Bowtie Aerospace",
+  title: "Baby Falcon",
   description: "Insana Facimus",
 };
 
