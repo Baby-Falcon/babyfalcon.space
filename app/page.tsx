@@ -40,7 +40,7 @@ export default function Home() {
           We&apos;re two high school sophomores building a model rocket that lands like SpaceX's Falcon 9.
         </p>
 
-        <div className="w-full mt-6 rounded-lg border border-gray-200 overflow-hidden shadow-sm">
+        <div className="w-full mt-6 overflow-hidden">
           <iframe
             src="https://gmail1028325.autodesk360.com/g/shares/SH286ddQT78850c0d8a4a5d1841d24301e8e"
             className="w-full"
@@ -58,7 +58,7 @@ export default function Home() {
                 alt="Photo of Aditya"
                 width={128}
                 height={128}
-                className="rounded-full object-cover transition-transform hover:scale-105 cursor-pointer"
+                className=" object-cover transition-transform hover:scale-105 cursor-pointer"
                 priority
               />
             </Link>
@@ -84,7 +84,7 @@ export default function Home() {
                 alt="Photo of Andy"
                 width={128}
                 height={128}
-                className="rounded-full object-cover transition-transform hover:scale-105 cursor-pointer"
+                className=" object-cover transition-transform hover:scale-105 cursor-pointer"
                 priority
               />
             </Link>
