@@ -37,10 +37,8 @@ export default function Home() {
         <h1 className="text-6xl font-pixel">
           We&apos;re two high school sophomores building a rocket that lands like SpaceX.
         </h1>
-{/*
-        <p className="text-sm font-mono">
-          We&apos;re two high school sophomores building a model rocket that lands like SpaceX's Falcon 9.
-        </p>*/}
+
+        <p className="text-sm font-mono">No parachute, Baby Falcon uses thrust vector control and a hoverslam to land. Completely custom software and hardware. <span className="text-gray-400">(For nerds: Kalman &amp; Extended Kalman filters, hoverslam, quaternions, PIDs, custom avionics, custom TVC, custom legs.)</span></p>
 
         <div className="w-full mt-6 overflow-hidden">
           <iframe
