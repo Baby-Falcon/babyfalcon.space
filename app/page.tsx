@@ -3,26 +3,28 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Link from "next/link";
+import Starfield from "./starfield";
 
 export default function Home() {
   return (
-    <div className="font-sans min-h-screen">
+    <div className="font-sans min-h-screen relative">
+      <Starfield />
       <nav className="w-full px-8 pt-4 sm:px-20 flex items-center justify-between">
-        <span className="text-lg font-bold font-instrument-serif">Baby Falcon</span>
+        <span className="text-lg font-pixel">Baby Falcon</span>
         <div className="flex gap-3">
           <a href="https://x.com/bowtieaerospace" className="p-1 transition-transform hover:scale-125">
-            <FontAwesomeIcon icon={faXTwitter} size="sm" className="text-gray-700" />
+            <FontAwesomeIcon icon={faXTwitter} size="sm" className="text-gray-300" />
           </a>
           <a href="mailto:hi@babyfalcon.space" className="p-1 transition-transform hover:scale-125">
-            <FontAwesomeIcon icon={faEnvelope} size="sm" className="text-gray-700" />
+            <FontAwesomeIcon icon={faEnvelope} size="sm" className="text-gray-300" />
           </a>
           <a href="" className="p-1 transition-transform hover:scale-125">
-            <FontAwesomeIcon icon={faLinkedin} size="sm" className="text-gray-700" />
+            <FontAwesomeIcon icon={faLinkedin} size="sm" className="text-gray-300" />
           </a>
         </div>
       </nav>
-      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 pb-20  sm:p-20">
-      <main className="flex flex-col gap-[8px] row-start-2 items-start w-full max-w-4xl">
+      <div className="flex justify-center p-8 pb-20 sm:p-20">
+      <main className="flex flex-col gap-[8px] items-center text-center w-full max-w-4xl">
         {/*<Image
           className="rounded-md"
           src="/images/logo.png"
@@ -32,7 +34,7 @@ export default function Home() {
           priority
         />*/}
 
-        <h1 className="text-4xl font-bold font-instrument-serif">
+        <h1 className="text-6xl font-pixel">
           A self-landing model rocket.
         </h1>
 
@@ -50,7 +52,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-12 justify-center sm:justify-start max-w-md mx-auto sm:mx-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-12">
           <div className="flex flex-col items-center text-center">
             <Link href="https://x.com/adityasaravana" className="group">
               <Image
@@ -64,14 +66,14 @@ export default function Home() {
             </Link>
             <div className="flex items-center gap-1 mt-4">
               <Link href="https://x.com/adityasaravana" className="hover:underline">
-                <h2 className="text-xl font-instrument-serif font-bold">Aditya</h2>
+                <h2 className="text-xl font-pixel">Aditya</h2>
               </Link>
               <div className="flex gap-1">
                 <a href="https://x.com/adityasaravana" className="p-1 transition-colors hover:scale-125 transition-transform">
-                  <FontAwesomeIcon icon={faXTwitter} size="sm" className="text-gray-700" />
+                  <FontAwesomeIcon icon={faXTwitter} size="sm" className="text-gray-300" />
                 </a>
                 <a href="https://www.linkedin.com/in/adityasaravana/" className="p-1 transition-colors hover:scale-125 transition-transform">
-                  <FontAwesomeIcon icon={faLinkedin} size="sm" className="text-gray-700" />
+                  <FontAwesomeIcon icon={faLinkedin} size="sm" className="text-gray-300" />
                 </a>
               </div>
             </div>
@@ -90,14 +92,14 @@ export default function Home() {
             </Link>
             <div className="flex items-center gap-1 mt-4">
               <Link href="https://www.linkedin.com/in/andr%C3%A9s-mathias-427469340/" className="hover:underline">
-                <h2 className="text-xl font-instrument-serif font-bold">Andy</h2>
+                <h2 className="text-xl font-pixel">Andy</h2>
               </Link>
               <div className="flex gap-1">
                 <Link href="https://x.com/andmath173842" className="p-1 transition-colors hover:scale-125 transition-transform">
-                  <FontAwesomeIcon icon={faXTwitter} size="sm" className="text-gray-700" />
+                  <FontAwesomeIcon icon={faXTwitter} size="sm" className="text-gray-300" />
                 </Link>
                 <Link href="https://www.linkedin.com/in/andr%C3%A9s-mathias-427469340/" className="p-1 transition-colors hover:scale-125 transition-transform">
-                  <FontAwesomeIcon icon={faLinkedin} size="sm" className="text-gray-700" />
+                  <FontAwesomeIcon icon={faLinkedin} size="sm" className="text-gray-300" />
                 </Link>
               </div>
             </div>
