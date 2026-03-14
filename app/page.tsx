@@ -35,12 +35,12 @@ export default function Home() {
         />*/}
 
         <h1 className="text-6xl font-pixel">
-          A self-landing model rocket.
+          We&apos;re two high school sophomores building a rocket that lands like SpaceX.
         </h1>
-
+{/*
         <p className="text-sm font-mono">
           We&apos;re two high school sophomores building a model rocket that lands like SpaceX's Falcon 9.
-        </p>
+        </p>*/}
 
         <div className="w-full mt-6 overflow-hidden">
           <iframe
