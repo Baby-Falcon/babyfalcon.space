@@ -18,7 +18,7 @@ export default function Home() {
           <a href="mailto:hi@babyfalcon.space" className="p-1 transition-transform hover:scale-125">
             <FontAwesomeIcon icon={faEnvelope} size="sm" className="text-gray-300" />
           </a>
-          <a href="" className="p-1 transition-transform hover:scale-125">
+          <a href="https://www.linkedin.com/company/baby-falcon/" className="p-1 transition-transform hover:scale-125">
             <FontAwesomeIcon icon={faLinkedin} size="sm" className="text-gray-300" />
           </a>
         </div>
